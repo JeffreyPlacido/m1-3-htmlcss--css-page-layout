@@ -3,11 +3,39 @@ body {
 }
 
 .nav {
-  background-color: #383737;
+  background-color: gray;
 }
 
 .nav-dropdown {
-  color: #fff;
+  padding: 25px;
+  color: white;
   text-decoration: none;
+  position: relative;
   display: inline-block;
+}
+
+.nav-dropdown:hover > .dropdown-menu {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: lightblue;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.menu-list {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-list > li {
+  list-style-type: none;
+  padding: 30px;
+}
+
+.menu-list > li:hover {
+  background-color: cornflowerblue;
 }
