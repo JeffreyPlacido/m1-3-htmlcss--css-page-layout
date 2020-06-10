@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+.footer {
+    background-color: grey;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.Nav {
+    background-color: grey;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.GoodStuff {
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+}
