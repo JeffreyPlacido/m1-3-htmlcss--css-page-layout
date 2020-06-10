@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    font-family: Poppins;
+    background-image: url(imgs/bg.jpg);
+    background-size: 100%;
+    background-position: center;
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
