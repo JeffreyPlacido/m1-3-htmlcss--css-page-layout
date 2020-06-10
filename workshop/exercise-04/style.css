@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Poppins;
+}
+.main {
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    max-width: 400px;
+    margin-top: 10px;
+}
+.ltd {
+    color: grey;
+    border-style: solid;
+    padding: 5px 5px;
+    border-radius: 8px;
+    display: inline-block
+}
+.link {
+    text-decoration: none;
+}
+
+.link::after {
+    content: '>';
+    padding-left: 8px;
+    display: inline-block;
+}
